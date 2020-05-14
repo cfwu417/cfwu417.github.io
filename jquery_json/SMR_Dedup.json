@@ -1,0 +1,13 @@
+{
+   "title": "SMR Dedup", 
+   "id": 123, 
+   "start": 0, 
+   "data": [   
+     {
+       "alt": "Hi",
+       "pid": 666, 
+       "src": "../images/SMR_Dedup.jpg"
+     }
+   ]
+ }
+
