@@ -53,18 +53,6 @@
 	</head>
 	<body>
     <script src="https://www.layuicdn.com/layui/layui.js"></script>
-    <script type="text/javascript">
-    layui.use(['laydate', 'laypage', 'layer', 'table', 'carousel', 'upload', 'element'], function() {
-      var laydate = layui.laydate 
-      ,laypage = layui.laypage 
-      ,layer = layui.layer 
-      ,table = layui.table 
-      ,carousel = layui.carousel 
-      ,upload = layui.upload 
-      ,element = layui.element; 
-
-      /*layer弹出一个示例*/
-    layer.msg('Hello World');
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
@@ -208,6 +196,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
                     <h2><strong>Journal Papers</strong></h2>
                     <ol type="1">
+                        <script type="text/javascript">
+                        layui.use(['laydate', 'laypage', 'layer', 'table', 'carousel', 'upload', 'element'], function() {
+                          var laydate = layui.laydate 
+                          ,laypage = layui.laypage 
+                          ,layer = layui.layer 
+                          ,table = layui.table 
+                          ,carousel = layui.carousel 
+                          ,upload = layui.upload 
+                          ,element = layui.element; 
+
+                          /*layer弹出一个示例*/
+                        layer.msg('Hello World');
+                        });
+                        </script>
                         <!--<big><big><li style="text-align:justify;color:gray;"></li></big></big>-->
                         <big><big><li style="text-align:justify;color:gray;">Ming-Chang Yang, <u>Chun-Feng Wu</u>, Shuo-Han Chen, Yi-Ling Lin, Che-Wei Chang, and Yuan-Hao Chang, "On Minimizing Internal Data Migrations of Flash Devices via Lifetime-Retention Harmonization," accepted and to appear in IEEE Transactions on Computers (TC).</li></big></big>
                         <big><big><li style="text-align:justify;color:gray;">Ming-Chang Yang, Yuan-Hao Chang, Tei-Wei Kuo, and <u>Chun-Feng Wu</u>, "Request Flow Coordination for Growing-Scale Solid-State Drives," accepted and to appear in IEEE Transactions on Computers (TC).</li></big></big>
@@ -883,8 +885,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<!-- MAIN JS -->
 
 	<script src="js/main.js"></script>
-    });
-    </script>
 
 	</body>
 </html>
