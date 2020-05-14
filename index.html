@@ -52,6 +52,19 @@
     <meta name="google-site-verification" content="7_rP9pQBr7U24iju8WyH9wv2ZaZ2NK31kXyoiTlMktQ" />
 	</head>
 	<body>
+    <script src="https://www.layuicdn.com/layui/layui.js"></script>
+    <script type="text/javascript">
+    layui.use(['laydate', 'laypage', 'layer', 'table', 'carousel', 'upload', 'element'], function() {
+      var laydate = layui.laydate 
+      ,laypage = layui.laypage 
+      ,layer = layui.layer 
+      ,table = layui.table 
+      ,carousel = layui.carousel 
+      ,upload = layui.upload 
+      ,element = layui.element; 
+
+      /*layer弹出一个示例*/
+    layer.msg('Hello World');
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
@@ -868,7 +881,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	
 	
 	<!-- MAIN JS -->
+
 	<script src="js/main.js"></script>
+    });
+    </script>
 
 	</body>
 </html>
