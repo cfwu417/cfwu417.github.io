@@ -212,9 +212,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                           ,element = layui.element; 
 
                           /*layer弹出一个示例*/
+                          $.getJSON('/jquery_json/great_memory_wall.json', function(json){
                           layer.photos({
-                          photos:'#layer-photos-demo',
-                          shift: 5
+                              photos: json
+                              ,shift: 5 
+                            });
                           });
                         }
                         </script>
