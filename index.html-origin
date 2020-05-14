@@ -52,6 +52,7 @@
     <meta name="google-site-verification" content="7_rP9pQBr7U24iju8WyH9wv2ZaZ2NK31kXyoiTlMktQ" />
 	</head>
 	<body>
+    <script type="text/javascript">
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
@@ -195,44 +196,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
                     <h2><strong>Journal Papers</strong></h2>
                     <ol type="1">
-                        <script type="text/javascript">
-                        function show_content_journal(file_name){
-                          layui.use(['layer'], function() {
-                          var laydate = layer = layui.layer;
-                          /*layer弹出一个示例*/
-                          $.getJSON('jquery_json/'+filename+'.json', function(json){
-                          layer.photos({
-                              photos: json
-                              ,shift: 1 
-                            });
-                          });
-                        });
-                        }
-                        </script>
                         <!--<big><big><li style="text-align:justify;color:gray;"></li></big></big>-->
                         <big><big><li style="text-align:justify;color:gray;">Ming-Chang Yang, <u>Chun-Feng Wu</u>, Shuo-Han Chen, Yi-Ling Lin, Che-Wei Chang, and Yuan-Hao Chang, "On Minimizing Internal Data Migrations of Flash Devices via Lifetime-Retention Harmonization," accepted and to appear in IEEE Transactions on Computers (TC).</li></big></big>
                         <big><big><li style="text-align:justify;color:gray;">Ming-Chang Yang, Yuan-Hao Chang, Tei-Wei Kuo, and <u>Chun-Feng Wu</u>, "Request Flow Coordination for Growing-Scale Solid-State Drives," accepted and to appear in IEEE Transactions on Computers (TC).</li></big></big>
-                        <big><big><li style="text-align:justify;color:gray;"><u>Chun-Feng Wu</u>, Yuan-Hao Chang, Ming-Chang Yang, and Tei-Wei Kuo, "<a href="javascript:show_content_journal('great_memory_wall')">Joint Management of CPU and NVDIMM for Breaking Down the Great Memory Wall</a>," IEEE Transactions on Computers (TC), vol. 69, no. 5, pp. 722-733, May. 2020.</li></big></big>
+                        <big><big><li style="text-align:justify;color:gray;"><u>Chun-Feng Wu</u>, Yuan-Hao Chang, Ming-Chang Yang, and Tei-Wei Kuo, "Joint Management of CPU and NVDIMM for Breaking Down the Great Memory Wall," IEEE Transactions on Computers (TC), vol. 69, no. 5, pp. 722-733, May. 2020.</li></big></big>
                         <big><big><li style="text-align:justify;color:gray;"><u>Chun-Feng Wu</u>, Ming-Chang Yang, Yuan-Hao Chang, and Tei-Wei Kuo, "Hot-Spot Suppression for Resource-Constrained Image Recognition Devices with Non-Volatile Memory," IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), vol. 37, no. 11, pp. 2567-2577, Nov. 2018. (Integrated with ACM/IEEE EMSOFT 2018)</li></big></big>
                     </ol>
                     <br>
                     <br>
                     <h2><strong>Conference Papers</strong></h2>
                     <ol type="1">
-                        <script type="text/javascript">
-                        function show_content_conf(file_name){
-                          layui.use(['layer'], function() {
-                          var laydate = layer = layui.layer;
-                          /*layer弹出一个示例*/
-                          $.getJSON('jquery_json/'+filename+'.json', function(json){
-                          layer.photos({
-                              photos: json
-                              ,shift: 1 
-                            });
-                          });
-                        });
-                        }
-                        </script>
                         <big><big><li style="text-align:justify;color:gray;">Shuo-Han Chen, Yu-Pei Liang, Yuan-Hao Chang, Yun-Fei Liu, <u>Chun-Feng Wu</u>, Hsin-Wen Wei, and Wei-Kuan Shih, "Reinforcing the Energy Efficiency of Cyber-Physical Systems via Direct and Split Cache Consolidation on MLC STT-RAM," ACM Symposium on Applied Computing (SAC), Brno, Czech Republic, Mar. 30 - Apr. 3, 2020.</li></big></big>
                         <big><big><li style="text-align:justify;color:gray;">Yu Ting Ho, <u>Chun-Feng Wu</u>, Ming-Chang Yang, and Yuan-Hao Chang, "Replanting Your Forest: NVM-friendly Bagging Strategy for Random Forest," IEEE Nonvolatile Memory Systems and Applications Symposium (NVMSA), Hangzhou, China, August 18-21, 2019. <code><span style='color: green;'>Best Paper Award</code></li></big></big>
                         <big><big><li style="text-align:justify;color:gray;">Shuo-Han Chen, Ming-Chang Yang, Yuan-Hao Chang, and <u>Chun-Feng Wu</u>, "Enabling File-Oriented Fast Secure Deletion on Shingled Magnetic Recording Drives," ACM/IEEE Design Automation Conference (DAC), Las Vegas, Nevada, USA, Jun. 2-6, 2019. <code><span style='color: blue;'>Top-Conference</code></li></big></big>
@@ -893,11 +866,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
-    <script src="https://www.layuicdn.com/layui/layui.js"></script>
 	
 	
 	<!-- MAIN JS -->
-
 	<script src="js/main.js"></script>
 
 	</body>
