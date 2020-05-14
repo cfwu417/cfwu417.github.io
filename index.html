@@ -199,18 +199,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                         <big><big><li style="text-align:justify;color:gray;">Ming-Chang Yang, <u>Chun-Feng Wu</u>, Shuo-Han Chen, Yi-Ling Lin, Che-Wei Chang, and Yuan-Hao Chang, "On Minimizing Internal Data Migrations of Flash Devices via Lifetime-Retention Harmonization," accepted and to appear in IEEE Transactions on Computers (TC).</li></big></big>
                         <script type="text/javascript">
                         function show_content(){
-                          layui.use(['laydate', 'laypage', 'layer', 'table', 'carousel', 'upload', 'element'], function() {
+                          layui.use(['laydate', 'laypage', 'layer', 'table', 'carousel', 'upload', 'element', 'photos'], function() {
                           var laydate = layui.laydate 
                           ,laypage = layui.laypage 
                           ,layer = layui.layer 
                           ,table = layui.table 
                           ,carousel = layui.carousel 
                           ,upload = layui.upload 
+                          ,photos = layui.photos
                           ,element = layui.element; 
 
                           /*layer弹出一个示例*/
                           $.getJSON('jquery_json/great_memory_wall.json', function(json){
-                          layer.photos({
+                          photos({
                               photos: json
                               ,shift: 5 
                             });
