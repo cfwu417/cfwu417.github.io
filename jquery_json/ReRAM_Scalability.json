@@ -1,0 +1,13 @@
+{
+   "title": "ReRAM Scalability", 
+   "id": 123, 
+   "start": 0, 
+   "data": [   
+     {
+       "alt": "On Minimizing Analog Variation Errors to Resolve the Scalability Issue of ReRAM-based Crossbar Accelerator",
+       "pid": 666, 
+       "src": "../images/ReRAM_Scalability.jpg"
+     }
+   ]
+ }
+
