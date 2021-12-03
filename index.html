@@ -203,6 +203,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                         function show_content_journal(file_name){
                           layui.use(['layer'], function() {
                           var layer = layui.layer;
+                          console.log("In Function")
                           /*layer弹出一个示例*/
                           $.getJSON('jquery_json/'+file_name+'.json', function(json){
                           layer.photos({
@@ -211,6 +212,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                             });
                           });
                         });
+                        console.log("Out Function")
                         }
                         </script>
                         <!--<big><big><li style="text-align:justify;color:gray;"></li></big></big>-->
