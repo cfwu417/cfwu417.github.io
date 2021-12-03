@@ -203,7 +203,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <script src="layui/layui.js"></script>
                         <script>
                         function show_content_journal(file_name){
-                          console.log("In Show Function4")
+                          console.log("In Show Function5")
+                            $(document).ready(function(){$('images/'+file_name+'.jpg').magnificPopup({type:'image'});});
                           layui.use(['layer'], function() {
                           var layer = layui.layer;
                           layer.msg('Hello World');
