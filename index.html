@@ -202,10 +202,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!--<script type="text/javascript">-->
                         <script type="text/javascript" src="layui/layui.js">
                         function show_content_journal(file_name){
-                          console.log("In Show Function")
+                          console.log("In Show Function");
                           layui.use(['layer'], function() {
-                          console.log("In LayFunction")
                           var layer = layui.layer;
+                          layer.msg('Hello World');
+                          console.log("In LayFunction")
                           /*layer弹出一个示例*/
                           $.getJSON('jquery_json/'+file_name+'.json', function(json){
                           layer.photos({
