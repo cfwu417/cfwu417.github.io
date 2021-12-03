@@ -200,12 +200,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <h3><strong>Journal Papers</strong></h3>
                     <ol type="1">
     <!--<script type="text/javascript">-->
-                    <script src="./layui/layui.js"></script>
+                    <script src="layui/layui.js"></script>
                         <script>
                         function show_content_journal(file_name){
-                          console.log("In Show Function3")
+                          console.log("In Show Function4")
                           layui.use(['layer'], function() {
                           var layer = layui.layer;
+                          layer.msg('Hello World');
                           console.log("In LayFunction")
                           /*layer弹出一个示例*/
                           $.getJSON('jquery_json/'+file_name+'.json', function(json){
