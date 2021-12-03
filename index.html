@@ -203,12 +203,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <script src="layui/layui.js"></script>
                         <script>
                         function show_content_journal(file_name){
-                          //console.log("In Show Function6")
-                          //$(document).ready(function(){$('images/'+file_name+'.jpg').magnificPopup({type:'image'});});
+                          console.log("In Show Function7")
+                          /*$(document).ready(function(){$('images/'+file_name+'.jpg').magnificPopup({type:'image'});});*/
                           layui.use(['layer'], function() {
                           var layer = layui.layer;
-                          //layer.msg('Hello World');
-                          //console.log("In LayFunction")
+                          layer.msg('Hello World');
+                          console.log("In LayFunction")
                           /*layer弹出一个示例*/
                           $.getJSON('jquery_json/'+file_name+'.json', function(json){
                           layer.photos({
@@ -217,7 +217,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                             });
                           });
                         });
-                        //console.log("Out Function")
+                        console.log("Out Function")
                         }
                         </script>
                         <!--<big><big><li style="text-align:justify;color:gray;"></li></big></big>-->
