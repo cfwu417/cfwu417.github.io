@@ -142,7 +142,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
                                         <h3 class="colorlib-heading">Biobraphy</h3>
                                         <big><p style="text-align:justify;"><strong>Chun-Feng Wu(吳俊峯)</strong> is a postdoctoral scholar in Department of Computer Science, Harvard University from 2021. He received his M.S. and Ph.D. degree in Department of Computer Science from National Tsing Hua University, Hsinchu, Taiwan, in 2016 and in Department of Computer Science and Information Engineering from National Taiwan University, Taipei, Taiwan, in 2021 respectively. He served in R&D alternative service at Institute of Information Science, Academia Sinica, Taipei, Taiwan. His primary research interests include memory/storage systems, embedded systems, operating systems and the next-generation memory/storage architecture.</p></big>
-                                        <big><b><p style="text-align:justify;"><font style="text-align:justigy;color:Red;">News:</font> I will join the Department of Computer Science at National Yang Ming Chiao Tung University as an assistant professor in August 2022. <u>I am looking for motivated M.S. and Ph.D. students. Possible research topics are to co-design memory/storage devices with popular applications (e.g., deep learning systems, recommendataion systems, graph processing systems, key-value databases, and various machine learning systems).</u> Our lab will work closely with Academia Sinica and The Chinese University of Hong Kong. If you are interested in my research or plan to study abroad, please do not hesitate to email (tom.cfwu@gmail.com) me with a copy of your CV to start a conversation.</b></p></big>
+                                        <big><b><p style="text-align:justify;"><font style="text-align:justigy;color:Red;">News:</font> I will join the Department of Computer Science at National Yang Ming Chiao Tung University as an assistant professor in August 2022. <u>I am looking for motivated M.S. and Ph.D. students. Our research topic will focus on memory/storage co-design with a variety of popular applications (e.g., deep learning systems, recommendataion systems, graph processing systems, key-value databases, and various machine learning systems).</u> Our lab will work closely with Academia Sinica and The Chinese University of Hong Kong. If you are interested in my research or plan to study abroad, please do not hesitate to email (tom.cfwu@gmail.com) me with a copy of your CV to start a conversation.</b></p></big>
                                         <!-- He is currently a <strong>PostDoc Fellow in Harvard Univeristy</strong>-->
 									</div>
 								</div>
@@ -708,11 +708,39 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingOne">
 									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Research Assistant (2017-2021)
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Facebook Recommendation Systems with SSDs (2021-Now)
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+                                                <big><big><p style="text-align:justify;color:black;"></p></big>Researchers from Meta (or Facebook previously) point out that data preprocessing is becoming a critical performance bottleneck for training their recommendation systems. We observed that, one of the reasons of the bottleneck is that unused training data may still be read and filtered out during data preprocessing. Besides, these unused data movements is because of the access behavior gap between recommendation systems and SSDs. To avoid these unused data movements, We proposed a joint management middleware to bridge the access behavior gap and periodically re-organize the training data inside SSDs. With using our middleware, systems can save 24%-47% of the overall read time compared with the LSM-based strategy, which is now currently applied by Meta and Baidu.</big>
+                                                 
+									         </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Samsung AxDIMM (2022-Now)
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+									         <div class="panel-body">
+                                                <big><big><p style="text-align:justify;color:black;"></p></big>We come up with a proposal targeting on integrating the GNN-based recommendation system with AxDIMM. We are now working on the architecture analysis of AxDIMM and the behavior analysis of GNN-based recommendation system.</big>
+                                                 
+									         </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingThree">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Research Assistant (2017-2021)
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
 									         <div class="panel-body">
                                                 <big><big><p style="text-align:justify;color:black;">Conduct researches, experiments, or implementations related to computer systems such as storage systems, memory systems, embedded systems, computer architecture, energy-efficient designs, multi-core/many-core systems, and neuromorphic computing.</p></big></big>
                                                  
