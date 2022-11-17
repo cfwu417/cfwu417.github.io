@@ -862,7 +862,7 @@ body.offcanvas {
     width: 100%; }
   .colorlib-feature .colorlib-addresstext {
     padding-left: 120px;
-    width: 100%; }
+    width: 120%; }
     .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
       margin: 0;
       padding: 0; }
@@ -876,7 +876,7 @@ body.offcanvas {
   .colorlib-feature.colorlib-feature-sm .colorlib-text{
     margin-top: 25px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-addresstext{
-    margin-top: 10px; }
+    margin-top: 5px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
     color: #2c98f0;
     font-size: 40px; }
