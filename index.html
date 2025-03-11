@@ -70,8 +70,8 @@
 						<li><a href="#" data-nav-section="publications">Publications</a></li>
 						<li><a href="#" data-nav-section="awards">Awards</a></li>
 						<li><a href="#" data-nav-section="projects">Projects</a></li>
+						<li><a href="#" data-nav-section="OSCAR">OSCAR Lab</a></li>
 						<li><a href="#" data-nav-section="talks">Talks</a></li>
-						<li><a href="#" data-nav-section="OSCAR Lab">OSCAR</a></li>
                         <!--<li><a href="#" data-nav-section="talks">Talks</a></li>-->
                         <!--<li><a href="#" data-nav-section="experiences & skills">Experiences</a></li>-->
 
@@ -824,6 +824,55 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					         </article>
             <!-- #}}} -->
 
+             <!-- #{{{OSCAR Lab -->
+			<section class="colorlib-services" data-section="OSCAR">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                            <!--<span class="heading-meta">What I do?</span>-->
+							<h2 class="colorlib-heading">OSCAR Lab</h2>
+						</div>
+					</div>
+                    <h3><strong>Awards</strong></h3>
+                    <ol type="1">
+    <!--<script type="text/javascript">-->
+                    <script src="layui/layui.js"></script>
+                        <script>
+                        function show_content_journal(file_name){
+                          //console.log("In Show Function9")
+                          //$(document).ready(function(){$('images/'+file_name+'.jpg').magnificPopup({type:'image'});});
+                          layui.use(['layer'], function() {
+                          var layer = layui.layer;
+                          //layer.msg('Hello World');
+                          //console.log("In LayFunction")
+                          /*layer弹出一个示例*/
+                          $.getJSON('jquery_json/'+file_name+'.json', function(json){
+                          layer.photos({
+                              photos: json
+                              ,shift: 5
+                              
+                            });
+                          });
+                        });
+                        //console.log("Out Function")
+                        }
+                        </script>
+                        <li style="text-align:justify;color:black;">中華民國資訊學會(IICM)最佳碩士論文獎之「碩士論文佳作」, 2025/03 -- 林哲維</li>
+                        <li style="text-align:justify;color:black;">台灣資訊儲存技術協會(TISA)「碩士論文獎」, 2024/10 -- 李政峯</li>
+                    </ol>
+                    <h3><strong>Alumni</strong></h3>
+                    <ol type="1">
+                        <li style="text-align:justify;color:black;">碩士，林哲維, 2024年4月畢業.</li> 
+                        <li style="text-align:justify;color:black;">碩士，蕭逸鵬, 2024年6月畢業.</li> 
+                        <li style="text-align:justify;color:black;">碩士，李品宏, 2024年6月畢業.</li> 
+                        <li style="text-align:justify;color:black;">碩士，Yowhannes Kifle (Joe), 2024年6月畢業, First Job: Micron Technology.</li> 
+                        <li style="text-align:justify;color:black;">碩士，李政峯, 2025年1月畢業, First Job: NVIDIA.</li> 
+                    </ol>
+			</section>
+			
+			</div>
+            <!-- #}}} -->
+
         <!-- #{{{talks-->
 			<section class="colorlib-experience" data-section="talks">
 				<div class="colorlib-narrow-content">
@@ -1113,125 +1162,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             <!-- #}}} -->
             -->
 
-             <!-- #{{{OSCAR Lab -->
-			<section class="colorlib-services" data-section="OSCAR">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                            <!--<span class="heading-meta">What I do?</span>-->
-							<h2 class="colorlib-heading">OSCAR Lab</h2>
-						</div>
-					</div>
-                    <h3><strong>Awards</strong></h3>
-                    <ol type="1">
-    <!--<script type="text/javascript">-->
-                    <script src="layui/layui.js"></script>
-                        <script>
-                        function show_content_journal(file_name){
-                          //console.log("In Show Function9")
-                          //$(document).ready(function(){$('images/'+file_name+'.jpg').magnificPopup({type:'image'});});
-                          layui.use(['layer'], function() {
-                          var layer = layui.layer;
-                          //layer.msg('Hello World');
-                          //console.log("In LayFunction")
-                          /*layer弹出一个示例*/
-                          $.getJSON('jquery_json/'+file_name+'.json', function(json){
-                          layer.photos({
-                              photos: json
-                              ,shift: 5
-                              
-                            });
-                          });
-                        });
-                        //console.log("Out Function")
-                        }
-                        </script>
-                        <li style="text-align:justify;color:black;">中華民國資訊學會(IICM)最佳碩士論文獎之「碩士論文佳作」, 2025/03 -- 林哲維</li>
-                        <li style="text-align:justify;color:black;">台灣資訊儲存技術協會(TISA)「碩士論文獎」, 2024/10 -- 李政峯</li>
-                    </ol>
-                    <h3><strong>Alumni</strong></h3>
-                    <ol type="1">
-                        <li style="text-align:justify;color:black;">碩士，林哲維, 2024年4月畢業.</li> 
-                        <li style="text-align:justify;color:black;">碩士，蕭逸鵬, 2024年6月畢業.</li> 
-                        <li style="text-align:justify;color:black;">碩士，李品宏, 2024年6月畢業.</li> 
-                        <li style="text-align:justify;color:black;">碩士，Yowhannes Kifle (Joe), 2024年6月畢業, First Job: Micron Technology.</li> 
-                        <li style="text-align:justify;color:black;">碩士，李政峯, 2025年1月畢業, First Job: NVIDIA.</li> 
-                    </ol>
-                    <!--
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>Graphic Design</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-                -->
-			</section>
-			
-			</div>
-            <!-- #}}} -->
             
 
             <!-- #{{{Unused Skills -->
